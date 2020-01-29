@@ -1,1 +1,5 @@
-# Matrix addition of two small matrices
+# Simple DAXPY program (no MPI)
+```
+./build.sh
+./execute.sh
+```
