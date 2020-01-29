@@ -8,7 +8,7 @@ CFLAGS =
 $(PROG): $(OBJ)
 	$(CC) $(CFLAGS) -o $(PROG) $(OBJ)
 
-matrixAddition.o: matrixDAXPY.f90
+matrixDAXPY.o: matrixDAXPY.f90
 	$(CC) $(CFLAGS) -c matrixDAXPY.f90
 
 #$(PROG).o: $(PROG).f90
